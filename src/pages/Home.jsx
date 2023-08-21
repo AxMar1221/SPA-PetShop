@@ -1,5 +1,5 @@
-import { ListCategories } from "../components/ListCategories"
-import { ListPosts } from "../components/ListPosts"
+import { ListCategories } from "../components/ListCategories";
+import { ListPosts } from "../components/ListPosts";
 
 const Home = () => {
   return (
@@ -8,9 +8,9 @@ const Home = () => {
         <h2 className="title-page">Pet noticias</h2>
       </div>
       <ListCategories />
-      <ListPosts url={"/posts"}/>
+      <ListPosts url={"/posts"} />
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
